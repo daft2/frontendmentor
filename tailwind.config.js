@@ -9,7 +9,18 @@ module.exports = {
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
       },
+      boxShadow: {
+        isfDark: '0 7px 1px 0px hsl(249, 10%, 26%, 0.3)',
+        isfDarkGreen: '0 4px 1px 0px hsl(154, 59%, 41%)',
+      },
       colors: {
+        isf: {
+          red: 'hsl(0, 100%, 74%)',
+          green: 'hsl(154, 59%, 51%)',
+          blue: 'hsl(248, 32%, 49%)',
+          darkBlue: 'hsl(249, 10%, 26%)',
+          grayBlue: 'hsl(246, 25%, 77%)',
+        },
         primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',

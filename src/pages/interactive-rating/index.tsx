@@ -63,8 +63,9 @@ const InteractiveRating = ({
       <input
         type='button'
         onClick={() => handleRate(rating)}
+        disabled={rating == null || rating == undefined}
         value='SUBMIT'
-        className='cursor-pointer rounded-full bg-orange-500 p-3 hover:bg-white hover:text-orange-500'
+        className='cursor-pointer rounded-full bg-orange-500 p-3 hover:bg-white hover:text-orange-500 disabled:bg-orange-800 disabled:text-gray-500'
       />
     </div>
   );
